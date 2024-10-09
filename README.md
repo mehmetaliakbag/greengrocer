@@ -9,7 +9,9 @@ Program, seçilen meyvenin fiyatını ekrana yazdırır.
 ## Özellikler
 
 - Kullanıcı dostu arayüz.
+
 - Farklı meyvelerin fiyatları:
+
   - Elma: 2 TL
   - Armut: 3 TL
   - Çilek: 2 TL
@@ -19,5 +21,7 @@ Program, seçilen meyvenin fiyatını ekrana yazdırır.
 ## Kullanım
 
 1. Programı çalıştırın.
+
 2. İstenilen meyveyi girin (Elma, Armut, Çilek, Muz veya Diğer).
+
 3. Seçtiğiniz meyvenin fiyatı ekranda gösterilecektir.
