@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Rüya Manavına Hoşgeldiniz:" +
+// Kullanıcıya mevcut ürünleri listeleyip bir seçim yapmasını isteyeceğiz.
+
+Console.WriteLine("Rüya Manavına Hoşgeldiniz:" +
                  "\nElma = 2 TL" +
                  "\nArmut = 3 TL" +
                  "\nÇilek = 2 TL" +
@@ -9,12 +11,17 @@ Console.Write("\nHangi meyveyi satın almak istersiniz?" +
                   "(Elma\\Armut\\Çilek\\Muz\\Diğer: ");
 
 string fruit = Console.ReadLine();
+
 int price;
 
 fruit = fruit.ToLower();
 
-#region Solution 1 
 
+
+#region Solution 1 
+  
+// Tercih ettiği meyvenin fiyatını değişkene atıyacağız 
+  
 if (fruit == "elma")
 {
     price = 2;
@@ -36,13 +43,17 @@ else
     price = 4;
 }
 
+// Alışveriş tutarını konsol ekranına yazdıracağız.
+
 Console.WriteLine($"Seçtiğiniz meyvenin fiyatı {price} TL");
+
 
 #endregion 
 
-Console.WriteLine("\n--------------------\n");
-
 #region Solution 2
+
+
+// Tercih ettiği meyvenin fiyatını değişkene atıyacağız 
 
 switch (fruit)
 {
@@ -67,7 +78,10 @@ switch (fruit)
         break;
 }
 
+// Alışveriş tutarını konsol ekranına yazdıracağız.
+
 Console.WriteLine($"Seçtiğiniz meyvenin fiyatı {price} TL");
+
 
 #endregion
 
