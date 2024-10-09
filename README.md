@@ -1,7 +1,9 @@
 # Rüya Manavı Programı
 
 Bu program, kullanıcının seçtiği meyvenin fiyatını belirleyen basit bir uygulamadır. 
+
 Kullanıcı, programın başlangıcında mevcut meyveleri ve fiyatlarını görür ve ardından bir meyve seçer. 
+
 Program, seçilen meyvenin fiyatını ekrana yazdırır.
 
 ## Özellikler
